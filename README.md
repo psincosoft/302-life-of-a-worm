@@ -2,6 +2,8 @@
 
 A simulation of *C. elegans* on the MEGA65.
 
+![The round dish with worms, food and two predators; on the right, the selected worm's neurons and muscles as they fire](screens/302-dish.gif)
+
 Up to 32 animals live in a dish. Each runs its own nervous system: the 302 neurons and the
 6,107 connections of the real worm, mapped neuron by neuron (Cook et al. 2019). Backing away
 from a touch comes from that wiring, not from a rule. Their lives follow published biology,
@@ -33,6 +35,18 @@ On the title, SPACE or fire opens the dish chooser; I or H opens the instruction
 - Two engines in 6502 machine code, one for the dish's life and every nervous system, one for
   the drawing; BASIC 65 around them; attic RAM for the pages, the dishes and the predators'
   wiring. With a full dish the MEGA65 computes 9,664 neurons.
+
+## Pictures
+
+![The title screen](screens/302-splash.png)
+
+![About 302, the first of the seven pages of instructions](screens/302-about.png)
+
+![The lab notebook after 66 days in the round dish](screens/302-notebook.png)
+
+The pictures are rendered on a PC from the program's own code, with an approximation of the
+MEGA65's character set; they are not photographs of the machine. The clip at the top runs at a
+pace estimated from the speed measured on the machine.
 
 ## Tested on
 
